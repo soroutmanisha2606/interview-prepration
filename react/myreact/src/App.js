@@ -3,6 +3,7 @@ import './App.css';
 import Memo from './components/memo hook/Memo';
 import Counter from './components/Counter';
 import Mydata from './components/mydata';
+import Lifecycle from './components/lifecycles/Lifecycle';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
      
      {/* <Counter/> */}
      {/* <Memo/> */}
-     <Mydata/>
+     <Lifecycle/>
+     {/* <Mydata/> */}
     </div>
   );
 }
