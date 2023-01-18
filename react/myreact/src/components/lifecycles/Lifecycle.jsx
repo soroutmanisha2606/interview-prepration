@@ -7,6 +7,7 @@ const Lifecycle = () => {
     const [state,setstate]=useState(true);
 
     useEffect(()=>{
+      console.log("component is loaded")
       return ()=>{
       console.log("component unmounted");   
       alert("component unmounted");
