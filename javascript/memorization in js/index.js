@@ -33,6 +33,7 @@ const memorization=(fun)=>{
         }
      }
 }
+
 const efficient_fxn=memorization(calculate);
 console.time();
 console.log(efficient_fxn(5));
@@ -43,7 +44,7 @@ console.log(efficient_fxn(5));
 console.timeEnd();
 
 
-/////
+/////example second 
 function sum2(n)
 {
     console.log(n+10);
