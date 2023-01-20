@@ -1,0 +1,5 @@
+https://blog.devgenius.io/react-memo-and-usememo-explained-in-the-right-way-you-should-know-this-af10a805e620
+///
+
+React.mom0-------is an higher ORDER function to memorize the entire function components
+2.usememo is a react hook to memorize a function within a functional component
