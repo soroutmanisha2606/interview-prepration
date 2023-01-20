@@ -44,7 +44,7 @@ console.log(efficient_fxn(5));
 console.timeEnd();
 
 
-/////example second ///////////////
+/////example second ////////////////
 function sum2(n)
 {
     console.log(n+10);
