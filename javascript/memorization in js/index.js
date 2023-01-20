@@ -71,7 +71,7 @@ const effi=memo(sum2);
 console.time();
 console.log(effi(5));
 console.timeEnd();
-//when we are calling function second time
+//when we are calling function second time ......instead of running process again it will check from cache
 console.time();
 console.log(effi(5));
 console.timeEnd()
