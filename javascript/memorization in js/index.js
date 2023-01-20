@@ -66,7 +66,6 @@ const memo=(fun)=>{
 }
 const effi=memo(sum2);
 console.time();
-
 console.log(effi(5));
 console.timeEnd();
 console.time();
