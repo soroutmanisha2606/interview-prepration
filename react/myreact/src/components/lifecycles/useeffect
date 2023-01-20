@@ -1,0 +1,5 @@
+1.four different methods to use use useEffect
+ when component mounts
+on every component render
+on every component render with a condition
+when component unmounts
