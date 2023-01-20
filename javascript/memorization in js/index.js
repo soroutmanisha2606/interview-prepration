@@ -71,6 +71,7 @@ const effi=memo(sum2);
 console.time();
 console.log(effi(5));
 console.timeEnd();
+//when we are calling function second time
 console.time();
 console.log(effi(5));
 console.timeEnd()
