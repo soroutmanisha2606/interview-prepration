@@ -3,6 +3,7 @@
 
 
 
+
 let sum=0;
 function calculate(n){
     for(var i=0;i<n;i++)
