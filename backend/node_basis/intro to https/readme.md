@@ -1,6 +1,6 @@
 #### http
 TCP-tranmission control protocol
-  HTPP-:
-  HTPPS-:
+  HTTP-:hyper text transfer protocol 
+  HTTPS-:hyper text transfer protocol secure
   SMPT-
   RPC-
