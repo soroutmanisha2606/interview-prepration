@@ -6,7 +6,6 @@ export const Decrementcount=(data)=>({
     type:"decrement",
     payload:data
 })
-//
 export const ResetCount=()=>({
     type:"reset"
 })

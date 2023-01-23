@@ -1,0 +1,15 @@
+SSR (Server side rendering)
+csr(Client Side REndering)
+CSR -react js and vue
+SSR -nextjs
+
+when we need SEO (Search engine optimization)
+////jb Client side rendering hogi tab phele js file load hogi phir data show hoga par or application thodi kam fast hogi
+/////to is side effect ke liye apne pass kuch frameworks hai jaise ki next js for react .
+//server side rendreing main phele siver side load hoga phir data show hoga 
+
+
+
+what is seo 
+search engine optimization means yeh ek softaware hai jo web search ke liye kaam aaata hai or optimization ka mtlb hum uska best use kar sake 
+//seo use karke hum apni website or webpage ko optimize kar sakte 
