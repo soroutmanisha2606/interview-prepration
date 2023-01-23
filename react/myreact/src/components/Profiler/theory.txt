@@ -1,0 +1,12 @@
+The Profiler measures how often a React application renders and what the “cost” of rendering is.
+ Its purpose is to help identify parts of an application 
+that are slow and may benefit from optimizations such as memoization.
+
+
+function callback(id,phase,actualduration){
+    console.log(id,phase,actualduration)
+}
+
+<Profiler onRender={callback}>
+<components/>
+</Profiler>
