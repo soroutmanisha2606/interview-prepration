@@ -8,7 +8,7 @@ when we need SEO (Search engine optimization)
 /////to is side effect ke liye apne pass kuch frameworks hai jaise ki next js for react .
 //server side rendreing main phele siver side load hoga phir data show hoga //////
 ///seo ka mtlb hota hai jb koi user google par search karta hau to humari website sabse uper dikhe ......
-///..
+///....
 
 what is seo 
 search engine optimization means yeh ek softaware hai jo web search ke liye kaam aaata hai or optimization ka mtlb hum uska best use kar sake 
