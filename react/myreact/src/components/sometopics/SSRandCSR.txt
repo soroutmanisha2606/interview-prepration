@@ -7,7 +7,7 @@ when we need SEO (Search engine optimization)
 ////jb Client side rendering hogi tab phele js file load hogi phir data show hoga par or application thodi kam fast hogi
 /////to is side effect ke liye apne pass kuch frameworks hai jaise ki next js for react .
 //server side rendreing main phele siver side load hoga phir data show hoga 
-///seo ka mtlb hota hai jb koi user google par search karta hau to humari website sabse uper dikhe .....
+///seo ka mtlb hota hai jb koi user google par search karta hau to humari website sabse uper dikhe ......
 
 
 what is seo 
