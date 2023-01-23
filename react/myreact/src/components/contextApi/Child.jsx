@@ -14,3 +14,10 @@ export const MycontextProvider=({children})=>{
     </Mycontext.Provider>
     </>
 }
+
+
+
+
+//when to use contextApi
+//If you only want to avoid passing some props through many levels, component composition is often a simpler solution than context.
+//
