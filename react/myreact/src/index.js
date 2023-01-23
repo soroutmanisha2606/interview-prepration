@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { Mystore } from './Redux/Store';
+import { MycontextProvider } from './components/contextApi/Child';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <MycontextProvider>
   <Provider store={Mystore}>
     <App />
   </Provider>
+  </MycontextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
