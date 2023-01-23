@@ -1,8 +1,5 @@
 //memorization is an optimization technique that can be used to reduce time consuming calculations by saving 
-//previous input in cache and return the result
-
-
-
+//previous input in cache and return the result;
 let sum=0;
 function calculate(n){
     for(var i=0;i<n;i++)
@@ -33,7 +30,6 @@ const memorization=(fun)=>{
         }
      }
 }
-
 const efficient_fxn=memorization(calculate);
 console.time();
 console.log(efficient_fxn(5));
@@ -44,7 +40,7 @@ console.log(efficient_fxn(5));
 console.timeEnd();
 
 
-/////example second ////////////////
+///////////////////////////example 2
 function sum2(n)
 {
     console.log(n+10);
@@ -72,7 +68,6 @@ const effi=memo(sum2);
 console.time();
 console.log(effi(5));
 console.timeEnd();
-//when we are calling function second time ......instead of running process again it will check from cache..
 console.time();
 console.log(effi(5));
 console.timeEnd()
