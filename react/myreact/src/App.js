@@ -35,13 +35,13 @@ function App() {
   return (
     <div className="App">
    {/* example of profiler 1 */}
-     {/* <Profiler onRender={callback}>
+     <Profiler onRender={callback}>
    <Parent2/>
-   </Profiler> */}
+   </Profiler>
  {/* example of profiler 2 */}
-   {/* <Profiler id='' onRender={onRenderCallback}>
+   <Profiler id='' onRender={onRenderCallback}>
    <Usereducer/>
-   </Profiler> */}
+   </Profiler>
 
 
 
