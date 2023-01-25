@@ -8,14 +8,11 @@ export const decrement=(data)=>({
 })
 export const loading=(data)=>({
     type:"loading",
-    payload:data
-
-    
+    payload:data    
 })
 export const error=(data)=>({
     type:"loading",
-    payload:data
-    
+    payload:data    
 })
 export const getdata=(data)=>({
     type:"getdata",

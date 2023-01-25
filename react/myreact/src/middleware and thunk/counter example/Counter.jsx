@@ -10,9 +10,10 @@ const Counter2 = () => {
     <div>
         <button onClick={()=>dispatch(increment(1))}>Increment --{count}</button>
         <button onClick={()=>dispatch(decrement(1))}>decrement --{count}</button>
-
     </div>
   )
 }
 
 export default Counter2
+//dispatch-maidleware(state)(next)(action)--reducer()
+//
