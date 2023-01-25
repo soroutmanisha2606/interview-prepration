@@ -25,7 +25,7 @@ const Data = () => {
     <div>
         {
             data.map((e)=>{
-                return <div style={{display:"flex",justifyContent:"space-between"}}>
+                return <div key={e.title} style={{display:"flex",justifyContent:"space-between"}}>
                     <div>{e.id}</div>
                     <div>{e.title}</div>
                 </div>
