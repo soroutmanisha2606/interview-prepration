@@ -10,9 +10,7 @@ const Data = () => {
     const data=useSelector(state=>state.data);
     const load=useSelector(state=>state.loading);
     const err=useSelector(state=>state.error);
-    const dispatch=useDispatch();
-
-  
+    const dispatch=useDispatch(); 
   
     console.log(data,"dataaa")
     if(load){
