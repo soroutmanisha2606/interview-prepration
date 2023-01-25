@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getdata, loading ,getdata2} from '../redux folder of thunk/Action'
+//ager hum nhi chate ki async operation ko component mai handle karana
 
 const Data = () => {
     useEffect(()=>{
