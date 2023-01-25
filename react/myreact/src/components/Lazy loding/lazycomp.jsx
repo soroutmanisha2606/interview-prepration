@@ -8,6 +8,13 @@ const Lazycomp = () => {
       
     }, 4000)}
     <h2>my component</h2>
+    <h2>my component</h2>
+    <h2>my component</h2>
+    <h2>my component</h2>
+   
+
+
+
     </div>
   )
 }

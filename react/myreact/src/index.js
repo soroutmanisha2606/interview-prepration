@@ -6,10 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { Mystore } from './Redux/Store';
 import { MycontextProvider } from './components/contextApi/Child';
+import { store } from './middleware and thunk/redux folder of thunk/Store';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <MycontextProvider>
-  <Provider store={Mystore}>
+  <Provider store={store}>
     <App />
   </Provider>
   </MycontextProvider>

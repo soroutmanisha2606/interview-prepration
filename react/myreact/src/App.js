@@ -38,6 +38,7 @@ function App() {
      <Profiler onRender={callback}>
    <Parent2/>
    </Profiler>
+   
  {/* example of profiler 2 */}
    <Profiler id='' onRender={onRenderCallback}>
    <Usereducer/>

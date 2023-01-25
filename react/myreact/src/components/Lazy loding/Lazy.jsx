@@ -11,8 +11,10 @@ const Lazy = () => {
         <Suspense fallback={<h2>....parent component is loading</h2>}>
         <Lazycomp/>
         </Suspense>
+
         
-<Suspense fallback={<h6>....componet2 is loading.....</h6>}>
+        
+       <Suspense fallback={<h6>....componet2 is loading.....</h6>}>
         <Lazycomponet2/>
         </Suspense>
         
