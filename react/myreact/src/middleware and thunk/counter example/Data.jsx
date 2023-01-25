@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getdata, loading ,getdata2} from '../redux folder of thunk/Action'
 //ager hum nhi chate ki async operation ko component mai handle karana to hum us operation ko redux ke anction se handle karwayenge by using the redux-thunk
 //jo ek middleware ki tarah kaam karta hai or async functions ko handle karane mai help karta hai....
-/////
+//////
 const Data = () => {
     useEffect(()=>{
        dispatch( getdata2());
