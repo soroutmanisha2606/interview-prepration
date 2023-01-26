@@ -47,8 +47,7 @@ Nosql
    ````
    db.name.insertOne({});
    db.name.find();
-   db.findOne();
-   
+   db.findOne();   
 
 
    ````` 
