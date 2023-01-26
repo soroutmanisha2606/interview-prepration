@@ -3,6 +3,7 @@
    2.reliablility
    3.portibility
    4.regular backups
+   
   
 ## mongodb
 SQL and No-sql
