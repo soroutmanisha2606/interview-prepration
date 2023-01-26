@@ -10,7 +10,7 @@ const mymiddleware=(store)=>(next)=>(action)=>{
 }
 const mymiddleware2=(store)=>(next)=>(action)=>{
     console.log("entered middleware 2");
-   
+   //action.payload=5;
     next(action);
     console.log("exit middleware2");
 
@@ -24,10 +24,10 @@ const thunkmiddleware=(store)=>(next)=>(action)=>{
     }
     next(action);    
 }
-const middleware=applyMiddleware(thunk);
+const middleware=applyMiddleware(thunk);//name of middleware 
 export const store=createStore(reducer,middleware);
 store.subscribe(()=>{
-    console.log("strore get updated",store.getState());
+    console.log("store get updated",store.getState());
 })
 /**    cretestore (reducer,initialstate,middleware) **/
 
