@@ -17,13 +17,13 @@ name1.printname.call(name2,"lohina","state2");
 name1.printname.apply(name2,["hello","lucknow"]);
 //bind method is used to store copy of an object
 const arr2=name1.printname.bind(name2,"bind_town","bind_state");
-console.log(arr2)
+console.log(arr2);
 
 
 
 
 
-///more examples
+/// more examples
 function car(type,fueltype){
     this.type=type,
     this.fueltype=fueltype
@@ -31,9 +31,9 @@ function car(type,fueltype){
 function nano(){
     car.call(this,"small","pertrol");
     this.brand="tata"
-    console.log("second examples",this)
+    console.log("second examples",this);
 }
-// nano();
+//nano();
 function audi(){
     car.call(this,"super","cng");
     this.name="audi super",

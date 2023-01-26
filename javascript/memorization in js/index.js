@@ -9,8 +9,9 @@ function calculate(n){
 return sum;
 }
 // console.time();
-// console.log(calculate(5));
+// console.log(calculate(3),"first fxn");
 // console.timeEnd();
+
 //ab yeh process har baar time lega q ki yeh dobara se initially run hoga to is cheez se bachne ke liye 
 //hum result ko cache mai store kara detre haui taki vo result cache se utha le .
 const memorization=(fun)=>{
@@ -32,7 +33,6 @@ const efficient_fxn=memorization(calculate);
 console.time();
 console.log(efficient_fxn(5));
 console.timeEnd();
-
 console.time();
 console.log(efficient_fxn(5));
 console.timeEnd();

@@ -10,4 +10,10 @@
         console.log("iffefxn",a)
     }
 )();
-//console.log(a);   it will give refrence error thet a is not defined
+(
+    function dbc(){
+        console.log("second fxn is called");
+    }
+)()
+let a=10;
+console.log(a); //  it will give refrence error thet a is not defined

@@ -41,8 +41,6 @@ add();
 add();
 //iske ander bhar ki value par change ho rha hai jo ki idher x hai
 //////pure functions
-
-
 function add1(x,y){
     console.log(x+y);
 }

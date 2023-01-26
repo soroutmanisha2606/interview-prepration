@@ -19,7 +19,7 @@ import { useReducer } from 'react'
         }
     }
 const Usereducer = () => {
-const [count,dispatch] =   useReducer(reducer,initaialstate);
+const [count,dispatch] =  useReducer(reducer,initaialstate);
   return (
     <div>
         <h4>{count}</h4>

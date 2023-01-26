@@ -1,5 +1,5 @@
 //if we are have to fetch then a this fetch function is pushed into the microtask queue
-//by the webApi and this queue has more priority then the call abck queue which means eventloop
+//by the webApi and this queue has more priority then the call back queue which means eventloop
 //will first push micotask queue in the call stack
 console.log("start");
 setTimeout(function set() {

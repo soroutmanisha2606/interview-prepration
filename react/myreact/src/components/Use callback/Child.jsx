@@ -9,4 +9,4 @@ const Child = ({fun,count2}) => {
   )
 }
 
-export default memo(Child)
+export default memo(Child);

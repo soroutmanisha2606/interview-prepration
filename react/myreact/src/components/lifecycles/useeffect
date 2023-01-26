@@ -1,5 +1,5 @@
 1.four different methods to use use useEffect
- 1.when component mounts
+1.when component mounts
 2.on every component render
 3.on every component render with a condition
 4.when component unmounts

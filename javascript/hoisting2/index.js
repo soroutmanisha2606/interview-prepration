@@ -1,5 +1,15 @@
+
+
+let D=12;
+console.log(D);
+console.log(E);
+const E=11;
+//reference error
+console.log(x);
 var x=30;
-//console.log(x);
+
+
+
 a();
 b();
 function a(){
@@ -17,7 +27,7 @@ function b(){
 // console.log(bvar)
 // let alet=10;
 // var bvar=100;
-console.log(c);
+//console.log(c);
 
 let c=10;
 
