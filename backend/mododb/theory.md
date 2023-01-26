@@ -19,7 +19,7 @@ Nosql
 
 
 
-//////databases are used for storing data
+///////databases are used for storing data//
 
 
 
