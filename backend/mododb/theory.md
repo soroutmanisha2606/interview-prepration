@@ -1,8 +1,7 @@
 ## drawback of storing dataa on json 
    1.secuirity
    2.reliablility
-   3.portibility
-   
+   3.portibility   
    4.regular backups
    
    
