@@ -5,7 +5,7 @@ let count=0;
 function countfxn(){
     console.log(count++);
 }
-/////
+//////
 //////
 app.use((req,res,next)=>{
    // console.log(res.method,req.path);    
