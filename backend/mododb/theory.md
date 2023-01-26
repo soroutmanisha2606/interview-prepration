@@ -2,7 +2,8 @@
    1.secuirity
    2.reliablility
    3.portibility   
-   4.regular backups    
+   4.regular backups
+   
    
   
 ## mongodb
