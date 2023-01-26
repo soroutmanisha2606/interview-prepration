@@ -18,6 +18,7 @@ app.use((req,res,next)=>{
     console.log("middleware is called");
     next();
 })
+///
 app.get("/data",(req,res)=>{
     console.log("get data is called");
     res.send({data:"manisha"});
