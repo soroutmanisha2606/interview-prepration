@@ -1,4 +1,4 @@
-## drawback od storing dataa on json 
+## drawback of storing dataa on json 
    1.secuirity
    2.reliablility
    3.portibility
