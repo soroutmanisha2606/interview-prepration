@@ -22,7 +22,7 @@
     - [Logical Operators](#logical-operators)
     - [Array Operators](#array-operators)
     - [Element Operators](#element-operators)
-    - [Evaluation Operators](#evaluation-operators)
+    - [Evaluation Operators](#evaluation-operators)/
 
 
 ## MongoDB Commands
