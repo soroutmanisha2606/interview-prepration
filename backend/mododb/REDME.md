@@ -1,7 +1,7 @@
 
 # MongoDB Advanced Operations
 
-- [MongoDB Advanced Operations](#mongodb-advanced-operations)///
+- [MongoDB Advanced Operations](#mongodb-advanced-operations)//
   - [MongoDB Commands](#mongodb-commands)
     - [Import Data](#import-data)
     - [Show Databases](#show-databases)
