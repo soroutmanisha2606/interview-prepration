@@ -1,7 +1,7 @@
 
 # MongoDB Advanced Operations
 
-- [MongoDB Advanced Operations](#mongodb-advanced-operations)
+- [MongoDB Advanced Operations](#mongodb-advanced-operations)////
   - [MongoDB Commands](#mongodb-commands)
     - [Import Data](#import-data)
     - [Show Databases](#show-databases)
@@ -22,7 +22,7 @@
     - [Logical Operators](#logical-operators)
     - [Array Operators](#array-operators)
     - [Element Operators](#element-operators)
-    - [Evaluation Operators](#evaluation-operators)
+    - [Evaluation Operators](#evaluation-operators)//
 
 
 ## MongoDB Commands
@@ -411,4 +411,4 @@ db.users.updateMany({
         friends: ['Monika', 'Ross', 'Chandler', 'Phoebe', 'Joe', 'Rachel']  
     } 
 })
-```
+````
