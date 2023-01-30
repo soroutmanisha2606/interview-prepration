@@ -7,4 +7,4 @@ const Loginmodel=mongoose.model('loginmodel',loginschema);
 module.exports={
     Loginmodel
 }
-//not needed /
+//not needed //
