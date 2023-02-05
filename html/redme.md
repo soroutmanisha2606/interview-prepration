@@ -1,5 +1,5 @@
 ## doctype (document type)
-//
+///
 //so that browser can understand which html version we are using .
 
 ## data attribute 
