@@ -12,6 +12,7 @@
         console.log("iffefxn",a)
     }
 )();
+//
 (
     function dbc(){
         console.log("second fxn is called");
