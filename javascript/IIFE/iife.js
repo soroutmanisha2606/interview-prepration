@@ -4,6 +4,7 @@
 //try to avoid decalre same names in global scope
 //syntax- (fn())();
 //
+//
 //aur these are work on anonimus fxn
 (
     function(){
