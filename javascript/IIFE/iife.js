@@ -3,7 +3,7 @@
 //aur hum iske variables of outside scope access nhi kar sakte or we can simply say that they are scope is limited within function itself
 //try to avoid decalre same names in global scope
 //syntax- (fn())();
-//
+////
 ///////
 //aur these are work on anonimus fxn
 (
