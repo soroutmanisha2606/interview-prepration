@@ -17,11 +17,11 @@ class SUV extends Car{
 }
 var car1=new SUV('nano','audi');
 console.log(car1);
-class TATA extends SUV{
-    constructor(d,e){
-        super(d,e);
-        this.type='mini-suv';
-    }
-}
-var car2=new TATA('duster','renault',"data");
-console.log(car2);
+// class TATA extends SUV{
+//     constructor(d,e){
+//         super(d,e);
+//         this.type='mini-suv';
+//     }
+// }
+// var car2=new TATA('duster','renault',"data");
+// console.log(car2);

@@ -18,6 +18,8 @@ import { Profiler } from 'react';
 import Lazy from './components/Lazy loding/Lazy';
 import Counter2 from './middleware and thunk/counter example/Counter';
 import Data from './middleware and thunk/counter example/Data';
+import { Revise } from './Revise';
+import { ReactForms } from './Sde1/ReactForms';
 function onRenderCallback(
   id, // the "id" prop of the Profiler tree that has just committed
   phase, // either "mount" (if the tree just mounted) or "update" (if it re-rendered)
@@ -47,7 +49,8 @@ function App() {
    </Profiler> */}
 
 
-
+{/* <Revise name='manisha' /> */}
+<ReactForms/>
 
 
 
@@ -71,7 +74,7 @@ function App() {
      
      {/* <Lazy/> */}
      {/* <Counter2/> */}
-     <Data/>
+     {/* <Data/> */}
     </div>
   );
 }
