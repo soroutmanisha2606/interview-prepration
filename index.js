@@ -51,7 +51,7 @@ console.log(x); // What happens here?
 var x = 10;
 
 console.log(y); // What happens here?
-let y = 20;
+let y1 = 20;
 
 
 for (var i =0;i<2;i++){
@@ -87,5 +87,42 @@ function testScope() {
     let b = 10;
 }
 testScope();
+
+
+
+
+
+
+
+function abc(){
+    console.log(this)
+};
+
+const sum =()=>{
+    console.log(this)
+}
+// abc();
+// sum();
+const obj = {
+  name: "JavaScript",
+  print: function () {
+    console.log(this.name);
+  },
+};
+const print = obj.print;
+print();
+obj.print();
+
+
+function outer() {
+  let count = 0;
+  return function inner() {
+    count++;
+    console.log(count);
+  };
+}
+const fn = outer();
+fn();
+fn();
 
 

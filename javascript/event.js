@@ -71,7 +71,7 @@ console.log("End");
 
 
 /// MOre question 
-/*
+
 console.log("Start");
 
 Promise.resolve().then(() => {
@@ -89,35 +89,35 @@ setTimeout(() => {
 }, 0);
 
 console.log("End");
-*/
+
 
 
 
 // ADDING TASK DYNAMICALLY
-console.log("Start");
+// console.log("Start");
 
-setTimeout(() => {
-  console.log("setTimeout 1");
+// setTimeout(() => {
+//   console.log("setTimeout 1");
 
-  setTimeout(() => {
-    console.log("setTimeout 2");
-  }, 0);
+//   setTimeout(() => {
+//     console.log("setTimeout 2");
+//   }, 0);
 
-  Promise.resolve().then(() => {
-    console.log("Promise inside setTimeout 1");
-  });
-}, 0);
+//   Promise.resolve().then(() => {
+//     console.log("Promise inside setTimeout 1");
+//   });
+// }, 0);
 
-Promise.resolve().then(() => {
-  console.log("Promise 1");
+// Promise.resolve().then(() => {
+//   console.log("Promise 1");
 
-  setTimeout(() => {
-    console.log("setTimeout inside Promise 1");
-  }, 0);
+//   setTimeout(() => {
+//     console.log("setTimeout inside Promise 1");
+//   }, 0);
 
-  Promise.resolve().then(() => {
-    console.log("Promise 2 inside Promise 1");
-  });
-});
+//   Promise.resolve().then(() => {
+//     console.log("Promise 2 inside Promise 1");
+//   });
+// });
 
-console.log("End");
+// console.log("End");

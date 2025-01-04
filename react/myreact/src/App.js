@@ -14,7 +14,7 @@ import ChildC from './components/Prop drilling/ChildC';
 import Parent3 from './components/Prop drilling/Parent';
 import Useref from './components/useref/Useref';
 import Usereducer from './usereducer/Usereducer';
-import { Profiler } from 'react';
+import React, { Profiler } from 'react';
 import Lazy from './components/Lazy loding/Lazy';
 import Counter2 from './middleware and thunk/counter example/Counter';
 import Data from './middleware and thunk/counter example/Data';
@@ -36,6 +36,13 @@ function callback(id,phase,actualDuration){
   console.log("in sencond profiler",id,phase,actualDuration)
 }
 function App() {
+  const [count,setCount] = React.useState(0);
+  const [flag,setFlag] = React.useState(false);
+
+   const handleCount=()=>{
+setCount(count+1)
+setFlag(false);
+   }
   return (
     <div className="App">
    {/* example of profiler 1 */}
@@ -48,33 +55,14 @@ function App() {
    <Usereducer/>
    </Profiler> */}
 
-
-{/* <Revise name='manisha' /> */}
-<ReactForms/>
-
-
-
-
-
-
-
-     {/* <Counter/> */}
-     {/* <Memo/> */}
-     {/* <Lifecycle/> */}
-     {/* <Product/>  */}
-     {/* <Parent/> */}
-     {/* <Mydata/> */}
-   {/* <Parent3/> */}
-   {/* <Mycom/> */}
-   {/* <ChildC/> */}
-   {/* <Useref/> */}
-     {/* <Purecomponents/> */}
-
-     {/* lazy loading...... */}
-     
-     {/* <Lazy/> */}
-     {/* <Counter2/> */}
-     {/* <Data/> */}
+<button onClick={()=>setCount(count+1)} >seat1</button>
+      <button>seat2</button>
+      <button>seat3</button>
+      <button>seat4</button>
+      <button>seat5</button>
+      <button>seat6</button>
+      <button>seat7</button>
+      <p>{count}</p>
     </div>
   );
 }
