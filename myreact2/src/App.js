@@ -10,6 +10,7 @@ import ThemeToglle from './components/themeToglle';
 import ThemeProvider from './components/Mycontext/themeProvider';
 import Timer from './components/Timer';
 import ReactForms from './components/ReactForms';
+import ReactIteamLists from './components/ReactIteamLists';
 
 
 
@@ -24,10 +25,11 @@ function App() {
 <ToggleText/> */}
 {/* <AddOrRemoveItem/> */}
 {/* <Timer/> */}
-<ReactForms/>
+{/* <ReactForms/> */}
 {/* <ThemeProvider>
 <ThemeToglle/>
 </ThemeProvider> */}
+<ReactIteamLists/>
 </>
   );
 }
