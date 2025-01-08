@@ -26,7 +26,7 @@ const ReactIteamLists = () => {
                 </div>
             })}
         </div>
-    </div>
+    </div> 
   )
 }
 
