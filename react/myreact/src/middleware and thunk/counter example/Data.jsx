@@ -8,7 +8,7 @@ import { getdata, loading ,getdata2} from '../redux folder of thunk/Action'
 const Data = () => {
     useEffect(()=>{
        dispatch( getdata2());
-    },[])
+    },[dispatch])
     const data=useSelector(state=>state.data);
     const load=useSelector(state=>state.loading);
     const err=useSelector(state=>state.error);

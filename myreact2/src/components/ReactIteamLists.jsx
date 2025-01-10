@@ -12,7 +12,6 @@ const ReactIteamLists = () => {
     const handleDelete = (index) =>{
         const clickedItem = allItems.filter((_,i)=>index!==i);
         setAllItems(clickedItem)
-
     }
   return (
     <div style={{display:'flex', flexDirection:'column', width:'300px', margin:'auto', marginTop:'5%'}}>

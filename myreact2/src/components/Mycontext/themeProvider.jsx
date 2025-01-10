@@ -5,8 +5,7 @@ const ThemeProvider = ({children}) => {
     const [theme , setTheme] = React.useState('light');
     const handleTheme = () =>{
         setTheme(theme==='light'?'dark':'light')
-    };
-  return (
+    };  return (
     <ThemeContext1.Provider value={{theme,handleTheme}}>{children}</ThemeContext1.Provider>
   )
 }

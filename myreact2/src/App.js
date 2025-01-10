@@ -11,8 +11,10 @@ import ThemeProvider from './components/Mycontext/themeProvider';
 import Timer from './components/Timer';
 import ReactForms from './components/ReactForms';
 import ReactIteamLists from './components/ReactIteamLists';
+import Counter from './components/ReduxReact/Counter';
+import { MyStore } from './components/ReduxReact/Store';
 
-
+import { Provider } from 'react-redux';
 
 
 
@@ -29,7 +31,10 @@ function App() {
 {/* <ThemeProvider>
 <ThemeToglle/>
 </ThemeProvider> */}
-<ReactIteamLists/>
+{/* <ReactIteamLists/> */}
+<Provider store={MyStore}>
+<Counter/>
+</Provider>
 </>
   );
 }

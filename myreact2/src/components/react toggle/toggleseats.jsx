@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 
 const Toggleseats = () => {
     const [data , setdata] = useState([]);
-
     const setTogle =(index)=>{
 const clickedBox =  data.filter((seat)=> seat!==index);
 if(data.includes(index)){
@@ -10,9 +9,8 @@ if(data.includes(index)){
     setdata(clickedBox);
 }else{
     setdata([...data,index])
-}
+}    }
 
-    }
   return (
     <>
     <h1>seletedSeats : {data.length}</h1>

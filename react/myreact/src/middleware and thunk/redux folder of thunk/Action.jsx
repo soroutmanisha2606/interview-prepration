@@ -18,7 +18,7 @@ export const getdata=(data)=>({
     type:"getdata",
     payload:data
     
-})
+});
 export function getdata2(){
     return async function(dispatch){
     try {
