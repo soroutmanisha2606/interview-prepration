@@ -25,8 +25,7 @@ let promise=new Promise(function(resolve,reject){
             console.log("my 2 ");
         }, 3000);
     }).catch((err)=>{
-        console.log(err);
-    
+        console.log(err);    
     })
 
 
